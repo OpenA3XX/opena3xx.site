@@ -1,5 +1,14 @@
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("Inter-Medium.woff2?v=3.15") format("woff2"),
+       url("Inter-Medium.woff?v=3.15") format("woff");
+}
+
 body {
-  font-family: 'Karla', sans-serif;
+  font-family: 'Inter', 'Karla', sans-serif;
   background-image: url("../images/bg.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -13,7 +22,8 @@ body {
 .navbar-brand {
   margin-right: 0; }
   .navbar-brand img {
-    height: 21px; }
+    /* height: 21px; } */
+  }
 
 .navbar-dark {
   padding-top: 35px;
